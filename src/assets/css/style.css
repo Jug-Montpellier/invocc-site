@@ -12,6 +12,20 @@
 /* =============================================================
    GENERAL STYLES
  ============================================================ */
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Arsenal|Righteous&subset=latin-ext');
+
+.Architects_Daughter {
+    font-family: 'Architects Daughter', cursive;
+}
+
+.righteous {
+    font-family: 'Righteous', cursive;
+}
+
+.crosscolor {
+    color: #a92401;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
    
@@ -26,7 +40,7 @@ i.fa {
     padding:5px;
 }
 section {
-    padding-top:50px;
+    padding-top: 80px;
 }
 
 p {
@@ -77,7 +91,7 @@ color: #FFF;
 
 
 .back-light {
-    background-color:rgba(0, 0, 0, 0.50);
+    background-color: #29363e;
     padding:10px;
 }
 /*NOTE SECION STYLE*/
@@ -205,7 +219,7 @@ border-radius: 0px;
 .portfolio-item h5 {
   margin: 0;
 padding: 30px 0 30px 0;
-background-color: #000;
+    background-color: #29363e;
 color: #fff;
 font-size: 20px;
 }
@@ -256,7 +270,7 @@ border: 1px solid #e1e1e1;
 
 
 #footer-sec {
-    background-color:#000;
+    background-color: #29363e !important;
     color:#808080;
 }
     #footer-sec h4 {
@@ -264,4 +278,19 @@ border: 1px solid #e1e1e1;
         color:#fff;
     }
 
-   
+.jug-back-color {
+    background-color: #29363e !important;
+
+}
+
+.btn-invocc {
+    color: #fff;
+    background-color: #29363e;
+    border-color: #29363e;
+}
+
+.btn-invocc:hover {
+    color: #e0e0e0;
+    background-color: #4b646f;
+    border-color: #4b646f;
+}
